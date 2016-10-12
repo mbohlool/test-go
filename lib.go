@@ -1,5 +1,5 @@
 package lib
 
 func Test() int {
-  return 1
+  return 2
 }

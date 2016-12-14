@@ -30,14 +30,14 @@
         }
     }, 
     "swagger": "2.0",
-	"definitions": {
-    "User": {
+    "definitions": {
+      "User": {
         "type": "object", 
         "properties": {
             "name1": {
                 "type": "string"
             }
         }
+      }
     }
-}
 }

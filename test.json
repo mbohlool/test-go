@@ -29,7 +29,7 @@
             }
         }
     }, 
-    "swagger": "2.0"
+    "swagger": "2.0",
 	"definitions": {
     "User": {
         "type": "object", 

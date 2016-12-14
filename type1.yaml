@@ -1,5 +1,0 @@
-User:
-  type: object
-  properties:
-    name1:
-      type: string

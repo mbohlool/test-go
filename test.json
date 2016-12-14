@@ -10,7 +10,7 @@
                     "200": {
                         "description": "OK", 
                         "schema": {
-			  "$ref": "https://raw.githubusercontent.com/mbohlool/test-go/dev/type1.json#/User"
+			  "$ref": "#/definitions/User"
                         }
                     }
                 }
@@ -30,4 +30,14 @@
         }
     }, 
     "swagger": "2.0"
+	"definitions": {
+    "User": {
+        "type": "object", 
+        "properties": {
+            "name1": {
+                "type": "string"
+            }
+        }
+    }
+}
 }
